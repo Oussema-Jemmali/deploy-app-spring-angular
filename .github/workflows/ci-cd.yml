@@ -84,8 +84,8 @@ jobs:
 
       - name: Vérification de la communication Frontend → Backend
         run: |
-          echo "Test du Backend (port 8080)..."
-          curl -f http://localhost:8080 && echo "✅ Backend répond correctement"
+          echo "Test du Backend (port 8081)..."
+          curl -f http://localhost:8081 && echo "✅ Backend répond correctement"
 
           echo "Test du Frontend (port 4200)..."
           curl -f http://localhost:4200 && echo "✅ Frontend répond correctement"
